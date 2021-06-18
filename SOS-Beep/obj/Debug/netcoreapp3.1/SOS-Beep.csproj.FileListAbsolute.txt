@@ -1,0 +1,13 @@
+C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\bin\Debug\netcoreapp3.1\SOS-Beep.exe
+C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\bin\Debug\netcoreapp3.1\SOS-Beep.deps.json
+C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\bin\Debug\netcoreapp3.1\SOS-Beep.runtimeconfig.json
+C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\bin\Debug\netcoreapp3.1\SOS-Beep.runtimeconfig.dev.json
+C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\bin\Debug\netcoreapp3.1\SOS-Beep.dll
+C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\bin\Debug\netcoreapp3.1\SOS-Beep.pdb
+C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\obj\Debug\netcoreapp3.1\SOS-Beep.csproj.AssemblyReference.cache
+C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\obj\Debug\netcoreapp3.1\SOS-Beep.AssemblyInfoInputs.cache
+C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\obj\Debug\netcoreapp3.1\SOS-Beep.AssemblyInfo.cs
+C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\obj\Debug\netcoreapp3.1\SOS-Beep.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\obj\Debug\netcoreapp3.1\SOS-Beep.dll
+C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\obj\Debug\netcoreapp3.1\SOS-Beep.pdb
+C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\obj\Debug\netcoreapp3.1\SOS-Beep.genruntimeconfig.cache
