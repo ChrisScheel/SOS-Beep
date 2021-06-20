@@ -9,7 +9,15 @@ namespace SOS_Beep
         //TODO: Implement KeyListener to exit program after user pressed Enter
         static void Main(string[] args)
         {
-            int frequencyInHertz = 400;
+            Console.WriteLine("Please type in a number for the frequency in Hertz.\n" +
+                "The number must be between 37 and 32767");
+            int frequencyInHertz = int.Parse(Console.ReadLine());
+            SignalSOS(frequencyInHertz);
+        }
+
+        static void SignalSOS(int frequency)
+        {
+            int frequencyInHertz = frequency;
             int shortBeepInMilliseconds = 220;
             int longBeepInMilliseconds = 525;
             string shortBeepSymbol = ". ";
