@@ -6,7 +6,9 @@ namespace SOS_Beep
     class Program
     {
         //Program works only with Windows operating systems
-        //TODO: Implement KeyListener to exit program after user pressed Enter
+        //TODO:
+        //- Implement KeyListener to exit program after user pressed Enter
+        //- Add Exception handling if number is <37 or bigger then 32767
         static void Main(string[] args)
         {
             Console.WriteLine("Please type in a number for the frequency in Hertz.\n" +
@@ -18,10 +20,10 @@ namespace SOS_Beep
         static void SignalSOS(int frequency)
         {
             int frequencyInHertz = frequency;
-            int shortBeepInMilliseconds = 220;
-            int longBeepInMilliseconds = 525;
-            string shortBeepSymbol = ". ";
-            string longBeepSymbol = "- ";
+            const int shortBeepInMilliseconds = 220;
+            const int longBeepInMilliseconds = 525;
+            const string shortBeepSymbol = ". ";
+            const string longBeepSymbol = "- ";
 
             while (true)
             {
