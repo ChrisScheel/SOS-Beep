@@ -4,32 +4,29 @@ namespace SOS_Beep
 {
     class Program
     {
-        //Program works only with Windows operating systems
-        //TODO:
-        //- Modify exception handling so the user can enter a value again
-        //- Add maybe something to run beeping and text output parallel
-        //  - Handle exception handling elsewhere
+        //Program only works with Windows operating systems
         static void Main(string[] args)
         {
             Console.WriteLine("Please type in a number for the frequency in Hertz.\n" +
                 "The number must be between 37 and 32767");
-            try
+
+            int frequencyInHertz = 0;
+
+            while (!int.TryParse(Console.ReadLine(), out frequencyInHertz))
             {
-                int frequencyInHertz = int.Parse(Console.ReadLine());
-                Console.WriteLine("\n Press Enter to stopp the program after an SOS iteration");
-                SOSBeeperGenerator sOSBeeper = new SOSBeeperGenerator(frequencyInHertz);
-                sOSBeeper.SignalSOS();
+                Console.WriteLine("\n Your input wasn't a number! Try again");
             }
-            catch (System.FormatException)
+
+            //TODO: Fix the input checks. It throws a Format-exception when the user
+            //inserts not a number after the range checking
+            while (frequencyInHertz < 37 || frequencyInHertz > 32767)
             {
-                Console.ForegroundColor = System.ConsoleColor.Red;
-                Console.WriteLine("\n Your input wasn't a number!");
-            }
-            catch (System.ArgumentOutOfRangeException)
-            {
-                Console.ForegroundColor = System.ConsoleColor.Red;
                 Console.WriteLine("\n The number must be between 37 und 32767!");
+                frequencyInHertz = int.Parse(Console.ReadLine());
             }
+
+            SOSBeeperGenerator sOSBeeper = new SOSBeeperGenerator(frequencyInHertz);
+            sOSBeeper.SignalSOS();
         }
     }
 }
