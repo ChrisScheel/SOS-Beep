@@ -17,12 +17,15 @@ namespace SOS_Beep
                 Console.WriteLine("\n Your input wasn't a number! Try again");
             }
 
-            //TODO: Fix the input checks. It throws a Format-exception when the user
-            //inserts not a number after the range checking
+            //TODO: It works now but code doesn't look "clean" -> Duplication
             while (frequencyInHertz < 37 || frequencyInHertz > 32767)
             {
                 Console.WriteLine("\n The number must be between 37 und 32767!");
-                frequencyInHertz = int.Parse(Console.ReadLine());
+
+                while (!int.TryParse(Console.ReadLine(), out frequencyInHertz))
+                {
+                    Console.WriteLine("\n Your input wasn't a number! Try again");
+                }
             }
 
             SOSBeeperGenerator sOSBeeper = new SOSBeeperGenerator(frequencyInHertz);
