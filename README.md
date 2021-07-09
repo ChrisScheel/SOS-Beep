@@ -3,4 +3,5 @@ A console application where the user can input the frequency in Hertz and the pr
 
 The program only works with Windows operating systems.
 
-![SOS Beeper](https://drive.google.com/file/d/1uHWCVAvcQGtSbhO8T_LnqUgGK6gdYl20/view?usp=sharing)
+![SOS Beeper](https://i.imgur.com/2CtsidR.png)
+
