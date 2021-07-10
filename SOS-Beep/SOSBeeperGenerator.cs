@@ -27,7 +27,8 @@ namespace SOS_Beep
                     ConsoleKeyInfo key = Console.ReadKey();
                     if (key.Key == ConsoleKey.Enter)
                     {
-                        Console.WriteLine("SOS has stopped");
+                        Console.WriteLine("\nSOS stopped");
+                        Console.ReadLine();
                         break;
                     }
                 }
