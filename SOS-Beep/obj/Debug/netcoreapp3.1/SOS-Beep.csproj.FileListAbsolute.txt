@@ -4,7 +4,6 @@ C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\bin\Debug\netcoreapp3.1
 C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\bin\Debug\netcoreapp3.1\SOS-Beep.runtimeconfig.dev.json
 C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\bin\Debug\netcoreapp3.1\SOS-Beep.dll
 C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\bin\Debug\netcoreapp3.1\SOS-Beep.pdb
-C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\obj\Debug\netcoreapp3.1\SOS-Beep.csproj.AssemblyReference.cache
 C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\obj\Debug\netcoreapp3.1\SOS-Beep.AssemblyInfoInputs.cache
 C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\obj\Debug\netcoreapp3.1\SOS-Beep.AssemblyInfo.cs
 C:\Users\Chris\Documents\Programmieren\SOS-Beep\SOS-Beep\obj\Debug\netcoreapp3.1\SOS-Beep.csproj.CoreCompileInputs.cache

@@ -28,6 +28,8 @@ namespace SOS_Beep
                 }
             }
 
+            Console.WriteLine("\nTo stop the program please press Enter and wait until an SOS iteration has finished.");
+
             SOSBeeperGenerator sOSBeeper = new SOSBeeperGenerator(frequencyInHertz);
             sOSBeeper.SignalSOS();
         }
